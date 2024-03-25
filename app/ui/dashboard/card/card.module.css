@@ -1,0 +1,32 @@
+.container{
+background-color: var(--bgSoft);
+padding: 20px;
+border-radius: 10px;
+display: flex;
+gap: 20px;
+cursor: pointer;
+width: 100%;
+}
+
+.container:hover{
+    background-color: gray;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+
+}
+
+.num{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.detail{
+    font-size: 11px;
+    font-weight: 300;
+}

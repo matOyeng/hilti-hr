@@ -1,0 +1,30 @@
+.container{
+    position: absolute;
+    bottom: 0;
+    width: 20%;
+    height: 50%;
+}
+
+.item{
+    position: relative;
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--textSoft);
+}
+
+.desc{
+
+}

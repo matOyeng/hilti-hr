@@ -1,0 +1,58 @@
+.container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button{
+    padding: 10px;
+    background-color: gray;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table{
+    width: 100%; 
+}
+
+.table td{
+    padding: 10px;
+}
+
+.user{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.userImg{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.status{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.contract{
+    background-color: skyblue;
+}
+
+.parttime{
+    background-color: yellow;
+}
+
+.fulltime{
+    background-color: greenyellow;
+}

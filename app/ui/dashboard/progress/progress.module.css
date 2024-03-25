@@ -1,0 +1,37 @@
+.container{
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title{
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: var(--textSoft);
+}
+
+.table{
+    width: 700px;
+}
+
+.table td{
+    padding: 10px;
+}
+
+.status{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.leader{
+    background-color: skyblue;
+}
+
+.tech{
+    background-color: yellow;
+}
+
+.final{
+    background-color: greenyellow;
+}
